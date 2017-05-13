@@ -1,0 +1,341 @@
+<!DOCTYPE HTML>
+{%  load staticfiles %}
+
+<!--
+	Visualize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>STEM Legacy</title>
+		<meta charset="utf-8" />
+	
+		<link rel="stylesheet" href="{% static "Gallery/cssgallary.css" %}" />
+        <link href= "http://i.imgur.com/IyfMgXP.png"           rel="shortcut icon" type="image/png">
+        <meta name="description" 
+              content="STEM legacy is non-governmental and voluntary organization for empowering the students from STEM or outside it for the development of society through turning ideas into projects that serve the innovative solutions and community and have a profit.">
+            <link href="https://fonts.googleapis.com/css?family=Nova+Square|Share+Tech"                           rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Della+Respira|Montserrat|Roboto+Condensed|Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous"                                        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Overpass"                                         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Changa+One"                   rel="stylesheet">
+        <link href="{% static "Home/normalize.css" %}"        rel="stylesheet">
+        <link href="{% static "Home/jquery.funnyText.css" %}" rel="stylesheet">
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="headabout">
+            <nav>
+                <a href="{% url "news:Open" %}" id="loogo"><img src="../../../media/Media%20Home/logoinhead.png"></a>
+                <a href="{% url "news:Open" %}" id="wrlogo"><h3 class="headingl">stem legacy</h3></a>
+                <div class="container">
+
+                    <div class="clearfix"></div>
+                    <div class="tabs">
+                        <ul>
+                             <li> <a href="{% url "news:Home" %}">home</a> </li>
+
+                             <li> <a href="{% url "news:members" %}">members</a> </li>
+                             <li> <a id = "now" href="{% url "news:gallery" %}">gallery</a> </li>
+                             <li> <a href="{% url "news:activity" %}">activity</a> </li>
+                            <li> <a href="{% url "news:about" %}">about</a> </li>
+                        </ul>
+                    </div>
+                </div>    
+            </nav>
+        </header>
+
+				<!-- Main -->
+					<section id="main">
+
+						<!-- Thumbnails -->
+							<section class="thumbnails">
+
+
+                                {% for i in galleryy|slice:":3" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                            <section class="thumbnails">
+
+
+                                {% for i in galleryy|slice:"3:6" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"6:9" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"9:11" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"11:14" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"14:17" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"17:20" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"20:23" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"23:26" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"26:29" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"29:32" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"32:35" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+                    <section class="thumbnails">
+
+
+                        {% for i in galleryy|slice:"35:38" %}
+								<div>
+
+									<a href=" {{ i.image.url }}">
+										<img src= {{i.image.url }} alt="" />
+										<h3>{{ i.eventt }} - {{ i.place }}</h3>
+									</a>
+
+								</div>
+
+                            {% endfor %}
+
+
+							</section>
+					</section>
+
+				<!-- Footer -->
+					
+			</div>
+<footer>
+                <div class="context">
+                    <div class="container">
+                       
+                        <h1>stem legacy</h1>
+                        <div id="infor">
+                            
+                            <p id="info">
+                                stem legacy is a non-governmental and voluntary organization for empowering the students from <span id="stem">STEM</span> or outside it for the development of society through turning ideas into  projects that serve the innovative solutions and community and have a profit.
+                            </p>
+                            <div id="iconphone">
+                                <img src="../../../media/Media%20Home/phone.png">
+                            </div>
+                            <div id="num">
+                             <h3>+201015211228</h3>
+                             <br> 
+                             <h3>+201111556120</h3>
+                            
+                            </div>
+                                                      
+                        </div> 
+                        
+                        <div id="message">
+                            <p>leave us a review or suggestion :</p>
+                            <form action="mailto:osama.elsayed@stemdakahlia.moe.edu.eg" method="post" enctype="multipart/form-data" name="EmailTestForm" >
+                                <textarea type="text" placeholder="Please leave your review here and click Send" ></textarea>
+                                 <div class="clearfix"></div>
+                                <input type="submit" value="Send" target="_top">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="contact">
+                     <div class="container">
+                         <div id="copy">
+                            <p><span id="legacy">stem legacy</span> &copy; 2017 | all rights reserved</p>
+                        </div>
+                        
+                        <div id="social">
+                                                         <a href="https://plus.google.com/u/3/101241106586692323897" target="_blank"><img src="../../../media/Media%20Home/gmail.png"></a>
+                                  <a href="https://www.youtube.com/channel/UCNlSyObkDxtFW9i09kFH-dA" target="_blank"><img src="../../../media/Media%20Home/youtube.png"></a>
+                                  <a href="https://www.instagram.com/stem_legacy" target="_blank"><img src="../../../media/Media%20Home/ins.png"></a>
+                                  <a href="https://twitter.com/StemLegacy" target="_blank"><img src="../../../media/Media%20Home/tw.png"></a>
+                                  <a href="https://www.facebook.com/STEMLegacy/" target="_blank" ><img src="../../../media/Media%20Home/fb.png"></a>
+                         </div>
+                        </div>
+                </div>
+        </footer>
+		<!-- Scripts -->
+			<script src="{% static "Gallery/jquery.min.js" %}"></script>
+			<script src="{% static "Gallery/jquery.poptrox.min.js" %}"></script>
+			<script src="{% static "Gallery/skel.min.js" %}"></script>
+			<script src="{% static "Gallery/main.js" %}"></script>
+        <script src="{% static "Home/jquery.funnyText.min.js" %}"></script>
+        <script src="{% static "Home/js.js" %}"></script>
+
+	</body>
+</html>

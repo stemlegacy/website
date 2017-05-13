@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    background-color: #e6e5e6;
+    font-family:  'Share Tech';
+
+
+}
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+header{
+   
+   background-position: 50%;
+  background-repeat: no-repeat; 
+  background-size:cover;
+    height: 350px;
+      color: white;
+    }
+
+#headhome{
+     background-image: url(../../../media/Media%20Home/photo%20legacy.jpg);
+}
+
+header nav #loogo{
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3px;
+    opacity: 1;
+}
+header nav #wrlogo{
+    color: white;
+}
+
+header nav a img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 2px;
+    display: inline;
+    
+    
+    
+    
+}
+header h3{
+    font-family: 'Share Tech';
+   float: left;
+  background-color: #1c579c;
+    text-transform: uppercase;
+    margin: 15px 0px 11px 20px;
+    
+}
+header .container ul{
+    list-style: none;
+  margin: 0px auto;
+    font-family: 'Nova Square';
+    
+}
+
+header ul li{
+    display: inline-block;
+    background-color: #1c579c;
+}
+header nav{
+    background-color: #1c579c;
+    opacity: 0.79 ;   
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+header .container ul{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1c579c;
+}
+header ul li a {
+	color: white;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 19px;
+	text-decoration: none;
+	text-transform:capitalize;
+    font-size: 20px;
+        background-color: transparent;
+    transition-duration: 0.7s;
+}
+header ul li a:hover,header ul li #now{
+    background-color: white;
+    color: #2c4665;
+    
+}
+
+
+
+
+
+.intro{
+    text-align: center;
+    
+}
+.intro h3{
+    margin: 25px auto 10px auto;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+      text-transform: uppercase;
+    letter-spacing: 2px ;
+
+}
+.intro h3 span{
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.intro .line{
+    height: 3px;
+    width: 115px;
+    background-color: red;
+    margin: 0px auto;
+}
+
+
+.intro .newline{
+    height: 3px;
+    width: 170px;
+    background-color: red;
+    margin: 0px auto;
+    margin-bottom: 60px;
+}
+
+
+.intro p{
+    margin: 40px 90px 40px 90px;
+      text-transform: uppercase;
+font-family: 'Overpass', sans-serif;
+word-spacing: 5px;
+}
+
+.intro .container .act .acti{
+    width: 25%;
+   display: inline;
+    float: left;
+      text-transform: uppercase;
+    overflow: hidden;
+}
+.actilink{
+    text-decoration: none;
+    color: black;
+}
+body > .clearfix{
+    clear: both;
+}
+
+#immg1{
+    margin-bottom: 0px;
+}
+
+.intro .container .act .acti img{
+    width: 230px;
+    height: 230px;
+    margin-bottom: 10px;
+}
+
+
+
+.intro .container .act .acti h2{
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-family: 'Righteous', cursive;
+
+}
+
+
+.intro .container .act .acti:hover{
+    color: #6D7582;
+    font-weight: bold;
+    filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+
+
+.intro .clearfix{
+    clear: both;
+}
+ .ratio{
+    background-color: #EB363D;
+    height: 280px;
+     text-align: center;
+     margin-top: 60px;
+}
+
+.ratio .container .square{
+    
+    width: 22%;
+    display: inline-block;
+    margin: 20px 0px;
+   color: white;
+    text-transform: uppercase;
+        box-sizing: border-box;
+    
+}
+
+.ratio .container .square:first-child{
+
+}
+
+
+.ratio .container .square .count{
+font-size: 80px;
+    margin-bottom: 15px;
+    margin: 30px 0px;
+}
+
+.ratio .container .square h4{
+font-size: 30px;
+}
+.email{
+    
+    padding: 20px 0px;
+}
+
+.email .container{
+    display: inline;
+  
+}
+.email .container form{
+      margin: 35px auto;
+}
+.email .container form h3{
+      margin: 0px 0px 15px 0px;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.email .container form input[type=email]{
+margin:0px 0px 10px 0px ;
+    height: 20px;
+border-radius: 10px;
+    padding: 5px;
+    
+}
+
+
+
+.email .container form input[type=submit]{
+  background-color: #DB9823;
+padding: 8px 10px;
+border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+footer{
+  
+    overflow: hidden;
+    	color: white;
+    text-transform: uppercase;
+
+}
+footer .context{
+    overflow: hidden;
+}
+
+
+
+footer .context .container #infor{
+    width: 50%;
+      float: left;
+}
+
+footer .context .container #infor #iconphone{
+    width: 13%;
+    float: left;
+}
+
+footer .context .container #infor #num{
+    width: 87%;
+    margin: 50px 0 0 0;
+    float: left;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+footer .context .container #infor #info{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+footer .context .container #infor img{
+    margin: 50px 0px;
+   float: left;
+    width: 50px;
+    height: 50px;
+}
+
+footer .context .container #infor h3{
+    margin: 50px 20px 5px 0px;
+    display: inline;
+    line-height: 1.3;
+    
+}
+
+
+footer .context .container #message{
+    width: 50%  ;
+   float: right;
+}
+footer .context .container #message textarea{
+    display: block;
+    float: right;
+    width: 82%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    color: black;
+    padding: 8px;
+   -webkit-box-shadow: 0px 0px 46px -3px rgba(255,255,255,0.52);
+-moz-box-shadow: 0px 0px 46px -3px rgba(255,255,255,0.52);
+box-shadow: 0px 0px 46px -3px rgba(255,255,255,0.52);
+
+     
+}
+
+footer .context .container #message .clearfix{
+    clear: both;
+}
+footer .context .container #message p{
+    margin: 0px 0px 5px 73px;   
+}
+#stem{
+    font-size: 20px;
+}
+footer .context .container #message input[type="submit"]{
+  background-color: #DB9823;
+padding: 8px 10px;
+border-radius: 10px;
+    float: right;
+ border:2px solid white;
+    margin: 8px 2px 8px 8px;
+    box-shadow: 2px 4px 7px black;
+}
+
+
+::-webkit-input-placeholder {
+  color: #889295; 
+}
+
+
+footer .context{
+    background-color: #1D5B8A;
+}
+
+footer .context h1{
+        font-family: 'Share Tech';
+        margin-top: 13px;
+        margin-bottom: 20px;
+
+}
+
+footer #contact{
+    background-color: white;
+    border-top: 5px solid #1d3b5d;
+    
+  
+    
+}
+footer #contact p{
+    padding: 10px 0px;
+    display: inline;
+    float: left;
+    margin: 4px 0px;
+}
+footer #contact .container #social a img{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 8px 5px 5px 5px;
+}
+
+
+footer #contact .container #social a img:hover{
+    
+    opacity: 0.7;
+}
+
+
+footer #contact .container #social {
+    display: inline;
+   
+overflow: hidden;
+    float: right;
+width: 50%}
+footer #contact .container #copy {
+    color: #1D5B8A;
+    width: 50%;
+   
+float: left;}
+footer #contact .container #copy #legacy{
+    font-weight: bold}
+
+footer #contact .container .clearfix{
+    clear: both;
+}
+footer #contact .container{
+    overflow: hidden;
+}

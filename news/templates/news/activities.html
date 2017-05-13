@@ -1,0 +1,183 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+                                                <!-- Start the head tag -->
+    <head>
+        <title>STEM Legacy</title>
+        <meta charset="utf-8">
+        <meta name="description" 
+              content="STEM legacy is non-governmental and voluntary organization for empowering the students from STEM or outside it for the development of society through turning ideas into projects that serve the innovative solutions and community and have a profit.">
+        <link href="https://fonts.googleapis.com/css?family=Nova+Square|Share+Tech"                           rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Della+Respira|Montserrat|Roboto+Condensed|Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous"                                        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Overpass"                                         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Changa+One"                   rel="stylesheet">
+        <link href="{% static "Home/normalize.css" %}"        rel="stylesheet">
+        <link href="{% static "Home/jquery.funnyText.css" %}" rel="stylesheet">
+        <link href="{% static "Home/csshome.css" %}"           rel="stylesheet">
+        <link href="{% static "Activities/activi.css" %}"           rel="stylesheet">
+        <link href= "http://i.imgur.com/IyfMgXP.png"           rel="shortcut icon" type="image/png">
+        <!-- [if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+                                                <!-- End the head tag -->
+    <body>
+                                                <!-- Start the navigation bar -->        
+        <header id="headabout">
+            <nav>
+                <a href="{% url "news:Open" %}" id="loogo"><img src="../../../media/Media%20Home/logoinhead.png"></a>
+                <a href="{% url "news:Open" %}" id="wrlogo"><h3 class="headingl">stem legacy</h3></a>
+                <div class="container">
+
+                    <div class="clearfix"></div>
+                    <div class="tabs">
+                        <ul>
+                             <li> <a href="{% url "news:Home" %}">home</a> </li>
+
+                             <li> <a href="{% url "news:members" %}">members</a> </li>
+                             <li> <a href="{% url "news:gallery" %}">gallery</a> </li>
+                             <li> <a id="now" href="{% url "news:activity" %}">activity</a> </li>
+                            <li> <a href="{% url "news:about" %}">about</a> </li>
+                        </ul>
+                    </div>
+                </div>    
+            </nav>
+        </header>
+                                                <!-- End the navigation bar -->        
+        
+                                                <!-- Start the content -->
+        
+     <div class="container">
+         
+        <div class="story">
+            <h3>What we did</h3>
+            <!--
+            <fieldset>
+                <legend>story about us</legend>
+                
+            </fieldset>
+ -->
+         </div>
+        
+        
+        <div class="wedoing">
+                    <div class="doingimg"><img src="../../../media/Media%20Home/act1.png"></div>
+                    <div class="doingtext">
+                       <h4>The way to be</h4>
+                        <p>The event was held in 18th Sept 2016. The event focused on the main skills that every student need in this stage of life, we talked about ISEF, Science Olympics and Scholarships, it also focused on programming.
+                        </p>
+                    </div>      
+        </div> 
+                    
+                  
+             <div class="clearfix"></div>  
+                    
+                    
+              <div class="wedoing">
+                    <div class="doingimg"><img src="../../../media/Media%20Home/act2.png"></div>
+                    <div class="doingtext">
+                        <h4>HR training</h4>
+                        <p>The purpose of the training was to develop the skills of Dakahlia STEM School and teach them new skills that could help them in their practical life. The training has done by H.R Committee's Head  and there was a workshop in the last to apply their knowledge.
+                        </p>
+                    </div>      
+             </div>
+             <div class="clearfix"></div>
+             <div class="wedoing">
+                    <div class="doingimg"><img src="../../../media/Media%20Home/act3.png"></div>
+                    <div class="doingtext">
+                        <h4>conversation day</h4>
+                        <p>It was created to add some skills to Dakahlia STEM School about Capstone Exhibition day like presentation skills and teach them how they can do good contact with evaluators and the right way to present their projects to get good grades.
+                        </p>
+                    </div>      
+             </div>
+             <div class="clearfix"></div>
+             
+              <div class="wedoing">
+                    <div class="doingimg"><img src="../../../media/Media%20Home/act4.png"></div>
+                    <div class="doingtext">
+                        <h4>Inspire your tonuge</h4>
+                        <p>Purpose of this event was improving English skills for students which include: Grammar, Idioms and speaking، also it included Motivation speech that was about how to spent your time in right way.
+                        </p>
+                        
+                    </div> 
+             </div>
+             <div class="clearfix"></div>
+        
+         <!--
+         
+            <div class="plan">
+                <div class="level"><img src="Media/idea.png"><br><h3>idea</h3></div>
+                <div class="level"><img src="Media/plan.png"><br><h3>plan</h3></div>
+                <div class="level"><img src="Media/achiev.png"><br><h3>achievment</h3></div>
+                <div class="level"><img src="Media/evaluaion.png"><br><h3>evaluaion</h3></div>
+                
+            </div>
+
+-->
+             <div class="clearfix"></div>
+        
+    </div>   
+     
+        
+                                                <!-- End the content -->
+        <div class="clearfix"></div>
+                                                <!-- Start the footer -->
+        
+        <footer>
+                <div class="context">
+                    <div class="container">
+                       
+                        <h1>stem legacy</h1>
+                        <div id="infor">
+                            
+                            <p id="info">
+                                stem legacy is a non-governmental and voluntary organization for empowering the students from <span id="stem">STEM</span> or outside it for the development of society through turning ideas into  projects that serve the innovative solutions and community and have a profit.
+                            </p>
+                            <div id="iconphone">
+                                <img src="../../../media/Media%20Home/phone.png">
+                            </div>
+                            <div id="num">
+                             <h3>+201015211228</h3>
+                             <br> 
+                             <h3>+201111556120</h3>
+                            
+                            </div>
+                                                      
+                        </div> 
+                        
+                        <div id="message">
+                            <p>leave us a review or suggestion :</p>
+                            <form action="mailto:osama.elsayed@stemdakahlia.moe.edu.eg" method="post" enctype="multipart/form-data" name="EmailTestForm" >
+                                <textarea type="text" placeholder="Please leave your review here and click Send" ></textarea>
+                                 <div class="clearfix"></div>
+                                <input type="submit" value="Send" target="_top">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="contact">
+                     <div class="container">
+                         <div id="copy">
+                            <p><span id="legacy">stem legacy</span> &copy; 2017 | all rights reserved</p>
+                        </div>
+                        
+                        <div id="social">
+                                  <a href="https://plus.google.com/u/3/101241106586692323897" target="_blank"><img src="../../../media/Media%20Home/gmail.png"></a>
+                                  <a href="https://www.youtube.com/channel/UCNlSyObkDxtFW9i09kFH-dA" target="_blank"><img src="../../../media/Media%20Home/youtube.png"></a>
+                                  <a href="https://www.instagram.com/stem_legacy" target="_blank"><img src="../../../media/Media%20Home/ins.png"></a>
+                                  <a href="https://twitter.com/StemLegacy" target="_blank"><img src="../../../media/Media%20Home/tw.png"></a>
+                                  <a href="https://www.facebook.com/STEMLegacy/" target="_blank" ><img src="../../../media/Media%20Home/fb.png"></a>
+                         </div>
+                        </div>
+                </div>
+        </footer>
+                                                <!-- End the footer --> 
+        
+        <script src="{% static "Home/jquery-1.11.3.min.js" %}"></script>
+        <script src="{% static "Home/jquery.countTo.js" %}"></script>
+        <script src="{% static "Home/jquery.funnyText.min.js" %}"></script>
+        <script src="{% static "Home/js.js" %}"></script>
+    </body>
+</html>
